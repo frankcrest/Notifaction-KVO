@@ -13,6 +13,10 @@
 		E95DDCDE2288BE24001633E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E95DDCDD2288BE24001633E2 /* Assets.xcassets */; };
 		E95DDCE12288BE24001633E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95DDCDF2288BE24001633E2 /* LaunchScreen.storyboard */; };
 		E95DDCE42288BE24001633E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E95DDCE32288BE24001633E2 /* main.m */; };
+		E95DDCEC2288BF33001633E2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95DDCEB2288BF33001633E2 /* SecondViewController.m */; };
+		E95DDCF22288D64C001633E2 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95DDCF12288D64C001633E2 /* ThirdViewController.m */; };
+		E95DDCF52288DD79001633E2 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95DDCF42288DD79001633E2 /* FourthViewController.m */; };
+		E95DDCF82288DD95001633E2 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = E95DDCF72288DD95001633E2 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,14 @@
 		E95DDCE02288BE24001633E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E95DDCE22288BE24001633E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E95DDCE32288BE24001633E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E95DDCEA2288BF33001633E2 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		E95DDCEB2288BF33001633E2 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		E95DDCF02288D64C001633E2 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		E95DDCF12288D64C001633E2 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		E95DDCF32288DD79001633E2 /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		E95DDCF42288DD79001633E2 /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		E95DDCF62288DD95001633E2 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		E95DDCF72288DD95001633E2 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +74,14 @@
 				E95DDCD52288BE22001633E2 /* AppDelegate.m */,
 				E95DDCD72288BE22001633E2 /* ViewController.h */,
 				E95DDCD82288BE22001633E2 /* ViewController.m */,
+				E95DDCEA2288BF33001633E2 /* SecondViewController.h */,
+				E95DDCEB2288BF33001633E2 /* SecondViewController.m */,
+				E95DDCF02288D64C001633E2 /* ThirdViewController.h */,
+				E95DDCF12288D64C001633E2 /* ThirdViewController.m */,
+				E95DDCF32288DD79001633E2 /* FourthViewController.h */,
+				E95DDCF42288DD79001633E2 /* FourthViewController.m */,
+				E95DDCF62288DD95001633E2 /* CustomView.h */,
+				E95DDCF72288DD95001633E2 /* CustomView.m */,
 				E95DDCDA2288BE22001633E2 /* Main.storyboard */,
 				E95DDCDD2288BE24001633E2 /* Assets.xcassets */,
 				E95DDCDF2288BE24001633E2 /* LaunchScreen.storyboard */,
@@ -141,7 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E95DDCF52288DD79001633E2 /* FourthViewController.m in Sources */,
+				E95DDCEC2288BF33001633E2 /* SecondViewController.m in Sources */,
+				E95DDCF22288D64C001633E2 /* ThirdViewController.m in Sources */,
 				E95DDCD92288BE22001633E2 /* ViewController.m in Sources */,
+				E95DDCF82288DD95001633E2 /* CustomView.m in Sources */,
 				E95DDCE42288BE24001633E2 /* main.m in Sources */,
 				E95DDCD62288BE22001633E2 /* AppDelegate.m in Sources */,
 			);
